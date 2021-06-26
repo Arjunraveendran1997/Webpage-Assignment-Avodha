@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  width: 100%;
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 3px 5px black;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+}
+
+header .head-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-spacing: 20px;
+  
+}
+
+header h1 {
+  margin-left: -930px;
+}
+.head-logo{
+  width: 60px;
+  margin-right: -30px;
+  margin-left: 50px;
+}
+
+.banner-container{
+  margin-top: 130px;
+  
+}
+
+
+.container{
+  display: flex;
+  justify-content:center;
+}
+.banner-head-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+
+section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -100px;
+  justify-content: space-between;
+  
+  padding: 10px;
+  box-shadow: 5px 3px 5px black;
+}
+
+.banner-img{
+  width: 400px;
+  margin-right: 300px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: 150px;
+}
+.left-bottom-section{
+  display: flex;
+  flex-direction: row;
+}
+
+.far{
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.second-point{
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
+
+.second-point i{
+  margin-top: 20px;
+  margin-right: 5px;
+
+}
+
+
+.third-point{
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
+
+.third-point i{
+  margin-top: 20px;
+  margin-right: 5px;
+
+}
+
+.form-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 180px;
+}
+
+.first-sec{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.second-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-message{
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+.form-body input{
+width: 350px;
+height: 40px;
+}
+
+.form-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.appo-btn{ 
+  margin-top: 15px;
+  background-color: rgb(11, 230, 146);
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: none;
+}
+
+.appo-btn:hover{
+  cursor: pointer;
+}
+
+.fas{
+  margin-left: -15px;
+}
+
+.footer{
+  background-color: rgb(11, 230, 146);
+  height: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
